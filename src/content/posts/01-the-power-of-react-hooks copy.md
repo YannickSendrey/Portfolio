@@ -1,8 +1,8 @@
 ---
-title: "The Power Of React Hooks"
-publishedAt: 2023-05-24
-description: "Lorem ipsum dolor sit amet consectetur et ultrices blandit neque ege"
-slug: "the-power-of-react-hooks"
+title: 'PokedexWeb'
+publishedAt: 2023-09-29
+description: '2nd practical project, React/Laravel'
+slug: 'pokedexweb'
 isPublish: true
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: "Untitled"
-publishedAt: 2023-05-24
-description: "Lorem ipsum dolor sit amet consectetur et ultrices blandit neque ege"
-slug: "untitled"
+title: 'Mock Reddit Client'
+publishedAt: 2023-08-17
+description: '1st practical project, React-Redux'
+slug: 'mock-reddit-client'
 isPublish: true
 ---
 
