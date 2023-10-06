@@ -52,7 +52,9 @@ import projects from '@/data/projects';
 			<section class='flex flex-col gap-4'>
 				{
 					projects.length !== 0 &&
-						projects.map((project) => <ProjectCard {...project} />)
+						projects.map((project, index) => (
+       						 <ProjectCard key={`project-${index}`} {...project} />
+      ))
 				}
 			</section>
 		</article>
@@ -67,8 +69,6 @@ import projects from '@/data/projects';
 					label={presentation.mail}
 				/> or follow me via my social links.
 			</p>
-
-			<SocialLinks />
 		</article>
 	</main>
 </Layout>
