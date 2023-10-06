@@ -77,8 +77,13 @@ const formatTechs = (values: string[]) =>
 		const menuButtons = document.querySelectorAll('.button');
 		menuButtons.forEach((button, index) => {
 			const parentSection = button.closest('section');
+			const subMenu = parentSection.querySelector('.sub');
+
+			subMenu.addEventListener('click', (event) => {
+				event.stopPropagation();
+			});
+
 			parentSection.addEventListener('click', () => {
-				const subMenu = parentSection.querySelector('.sub');
 				subMenu.style.display =
 					subMenu.style.display === 'flex' ? 'none' : 'flex';
 				button.classList.toggle('open');
