@@ -1,3 +1,3 @@
 # Portfolio - Yannick SENDREY
 
-Used base [template](https://www.maxencewolff.com).
+Used this [template](https://www.maxencewolff.com) as a base and worked around it.
