@@ -25,6 +25,10 @@ const presentation: Presentation = {
       label: "Github",
       link: "https://github.com/YannickSendrey",
     },
+    {
+      label: "CV",
+      link: "https://drive.google.com/file/d/1lR4Uyp-nY1OKy5e4L6C-9ecLQ6bPSQs4/view"
+    }
   ],
 };
 
