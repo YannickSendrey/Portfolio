@@ -51,18 +51,18 @@ const formatTechs = (values: string[]) =>
 				</article>
 				<div class='sub group flex flex-row w-full justify-between gap-2 rounded-md border border-neutral-700 p-4 md:flex-row md:items-center'>
 					<ul class='group flex flex-col gap-16 justify-between'>
-						<li class='text-amber-400 text-base'>{date}</li>
-						<li
-							class='text-justify w-11/12 text-base'
-							set:html={convertAsteriskToStrongTag(description)}
-						/>
-						<li class='cursor-pointer text-amber-400 text-base'>
+						<li class='text-amber-400 text-base'>
+							{date} -{' '}
 							<a
 								href={link}
 								target='_blank'>
 								{link}
 							</a>
 						</li>
+						<li
+							class='text-justify w-11/12 text-base'
+							set:html={convertAsteriskToStrongTag(description)}
+						/>
 					</ul>
 					<img
 						src={image}
